@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 144px;
+  background-color: #011827;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header__top__title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  height: 84px;
+  width: 78px;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 0;
+
+}
+
+.header__top__logo {
+  height: 82px;
+  width: 128px;
+  margin-left: 27px;
+  margin-top: 26px;
+}
+
+.header__bottom {
+    width: 100%;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.header__bottom__navbar__link {
+
+}
+
+.containerOne {
+    width: 100%;
+    height: 274px;
+    background-image: url(media/hackerimg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.containerTwo {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTwo__linkBox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTwo__linkBox__challengesBtn {
+    width: 308px;
+    height: 66px;
+    border: none;
+    background-color: #8ACFE5;
+    margin-top: 35px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+}
+
+.containerTwo__linkBox__challengesLink {
+    width: 129px;
+    height: 19.97px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    color: #36769D;
+    margin-top: 30px;
+}
+
+.containerTwo__quoteBox {
+    display: flex;
+    width: 439px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    height: 139px;
+}
+
+.containerTwo__quoteBox__img {
+    width: 72px;
+    height: 72px;
+    margin-right: 22px;
+    margin-top: 3px;
+}
+
+.containerTwo__quoteBox__text {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+}
+
+.containerTwo__quoteBox__hero {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 28.13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.containerTwo__quoteBox__subhero {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21.09px;
+    margin-top: 12px;
+}
