@@ -1,10 +1,13 @@
+html {
+  max-width: 100vw;
+}
+
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  max-width: 100vw;
 }
 /**ID's.**/
 /**I use ID's to bring attention to specific styling deviations**/
@@ -23,7 +26,16 @@ body {
 #underCarouselBtn {
   margin-top: 15px;
 }
+
 #underCarouselLink {
+  margin-bottom: 60px;
+}
+
+#footerLinkBreakRow {
+  margin-top: 18px;
+}
+
+#footerLinkLast {
   margin-bottom: 60px;
 }
 
@@ -79,14 +91,14 @@ body {
 
 .containerOne {
   width: 100%;
-  height: 274px;
+  height: 30vh;
   background-image: url(media/hackerimg.png);
   background-size: cover;
   background-position: center;
 }
 
 .containerTwo {
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -95,7 +107,7 @@ body {
 }
 
 .containerTwo__linkBox {
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -128,11 +140,11 @@ body {
 
 .containerTwo__quoteBox {
   display: flex;
-  width: 439px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 60px;
   height: 139px;
+  max-width: 455px;
 }
 
 .containerTwo__quoteBox__img {
@@ -145,7 +157,7 @@ body {
 .containerTwo__quoteBox__text {
   display: flex;
   flex-direction: column;
-  width: 343px;
+
 }
 
 .containerTwo__quoteBox__hero {
@@ -285,7 +297,7 @@ body {
 
 .containerThree {
   width: 100vw;
-  height: 800px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   background-color: #011827;
@@ -297,12 +309,14 @@ body {
   font-size: 28px;
   line-height: 33px;
   text-align: center;
-  width: 440px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 234px;
   color: #FFFFFF;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   margin-top: 95px;
+  max-width: 650px;
 }
 
 .containerThree__button {
@@ -323,45 +337,56 @@ body {
 }
 
 .containerThree__img {
+  width: 100vw;
+  object-fit: cover;
+  
 
 }
 
 .containerFour {
-  height: 700px;
+  height: fit-content;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 }
 
 .containerFour__hero {
-  width: 440px;
   height: 105px;
+  max-width: 655px;
   font-size: 32px;
   font-weight: 700;
   line-height: 37px;
   font-family: Roboto, sans-serif;
   margin-bottom: 40px;
   margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
 }
 
 .containerFour__subhero {
-  width: 440px;
+  text-align: left;
   height: 112px;
+  max-width: 655px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   margin-top: 0;
   margin-bottom: 25px;
+  margin-left: 21px;
+  margin-right: 24px;
 }
 
 .containerFour__buttonBox {
   width: 100vw;
+  max-width: 700px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -380,4 +405,56 @@ body {
   margin-right: 151px;
   margin-left: 21px;
   font-weight: 700;
+  position: relative;
 }
+
+.containerFour__img {
+  width: 100vw;
+}
+
+.footer {
+  background-color: #011827;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+.footer__container__title {
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 22px;
+  margin-bottom: 7px;
+  margin-top: 35px;
+}
+
+.footer__container__sub {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 21px;
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__container__link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 21px;
+  margin-left: 22px;
+  margin-right: 22px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
