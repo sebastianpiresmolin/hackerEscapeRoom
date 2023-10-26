@@ -1,0 +1,22 @@
+@media screen and (min-width: 900px) {
+  .header__title {
+    line-height: 46px;
+    font-size: 40px;
+    width: auto;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .containerTwo__carousel {
+    overflow-x: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+  }
+
+  .carousel__firstCard,
+  .carousel__lastCard {
+    margin: 0;
+  }
+}

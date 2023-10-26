@@ -1,35 +1,22 @@
+body,
 html {
-width: 100vw;
-}
-
-body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  padding: 0;
   width: 100%;
-  max-width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
 }
-/**ID's.**/
-/**I use ID's to bring attention to specific styling deviations**/
-
-
-
-
-
-
-
-
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 144px;
   background-color: #011827;
   display: flex;
   flex-direction: column;
 }
 
-.header__container{
-  width: 100vw;
+.header__container {
+  width: 100%;
   height: 144px;
   display: flex;
   flex-direction: row;
@@ -138,7 +125,6 @@ body {
 .containerTwo__quotebox {
   display: flex;
   flex-direction: column;
-
 }
 
 .quoteBox__main {
@@ -205,7 +191,7 @@ body {
 }
 
 .carousel__img {
-  width: 363px;
+  object-fit: cover;
   height: 219px;
   border-radius: 8px 8px 0 0;
 }
@@ -311,7 +297,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   height: 234px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   margin-top: 95px;
@@ -338,8 +324,6 @@ body {
 .containerThree__img {
   width: 100vw;
   object-fit: cover;
-  
-
 }
 
 .containerFour {
@@ -427,7 +411,7 @@ body {
 
 .footer__title {
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   line-height: 21px;
   margin-left: 22px;
@@ -438,7 +422,7 @@ body {
 .footer__sub {
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 21px;
   margin-left: 22px;
   margin-right: 22px;
@@ -449,7 +433,7 @@ body {
 .footer__link {
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 21px;
   margin-left: 22px;
   margin-right: 22px;
@@ -463,32 +447,4 @@ body {
 
 .footerLinkLast {
   margin-bottom: 60px;
-}
-
-/** @mediaquery **/
-
-@media screen and (min-width: 1000px) {
-  .containerTwo__carousel {
-    overflow-x: unset;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .containerTwo__carousel__card {
-    width: 300px;
-  }
-
-  #firstCard, #lastCard {
-    margin: 0;
-  }
-
-  .containerTwo__carousel__card__img {
-    width: 300px;
-  }
-
-  .containerTwo__carousel__card__textBox__subhero {
-    max-width: 275px;
-
-  }
 }
