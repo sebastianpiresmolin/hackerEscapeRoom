@@ -6,7 +6,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/**ID's.**/
+/**I use ID's to bring attention to specific styling deviations**/
 #firstCard {
   margin-left: 50px;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 #underCarousel {
-  margin-top: 120px;
+  margin-top: 15px;
 }
 
 
@@ -166,11 +167,19 @@ body {
 .containerTwo__carousel {
   display: flex;
   width: 480px;
-  height: 500px;
+  height: 480px;
   flex-direction: row;
   justify-content: flex-start;
   overflow-x: scroll;
   gap: 30px;
+}
+/**This time -webkit- Is justified since scrollbar is only supported by 80% of browsers**/
+.containerTwo__carousel::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.containerTwo__carousel::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 
 .containerTwo__carousel__title {
