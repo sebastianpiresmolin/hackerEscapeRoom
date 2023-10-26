@@ -18,13 +18,7 @@ body {
 
 
 
-#footerLinkBreakRow {
-  margin-top: 18px;
-}
 
-#footerLinkLast {
-  margin-bottom: 60px;
-}
 
 .header {
   width: 100vw;
@@ -372,7 +366,7 @@ body {
   text-align: left;
 }
 
-.containerFour__subhero {
+.containerFour__subTitle {
   text-align: left;
   height: 112px;
   max-width: 655px;
@@ -395,7 +389,7 @@ body {
   align-items: center;
 }
 
-.containerFour__buttonBox__button {
+.containerFour__button {
   border: none;
   background-color: #e3170a;
   height: 66px;
@@ -431,7 +425,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.footer__container__title {
+.footer__title {
   font-weight: 700;
   color: #FFFFFF;
   font-size: 18px;
@@ -441,7 +435,7 @@ body {
   margin-top: 35px;
 }
 
-.footer__container__sub {
+.footer__sub {
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
@@ -452,7 +446,7 @@ body {
   margin-bottom: 0;
 }
 
-.footer__container__link {
+.footer__link {
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
@@ -461,6 +455,14 @@ body {
   margin-right: 22px;
   text-decoration: none;
   margin-bottom: 0;
+}
+
+.footerLinkBreakRow {
+  margin-top: 18px;
+}
+
+.footerLinkLast {
+  margin-bottom: 60px;
 }
 
 /** @mediaquery **/
