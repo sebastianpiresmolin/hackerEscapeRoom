@@ -7,6 +7,24 @@ body {
   flex-direction: column;
 }
 
+#firstCard {
+  margin-left: 50px;
+}
+
+#lastCard {
+  margin-right: 50px;
+}
+
+#firstStarInRow {
+  margin-left: 22px;
+}
+
+#underCarousel {
+  margin-top: 120px;
+}
+
+
+
 .header {
   width: 100%;
   height: 144px;
@@ -70,6 +88,8 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerTwo__linkBox {
@@ -145,9 +165,12 @@ body {
 
 .containerTwo__carousel {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 480px;
+  height: 500px;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  gap: 30px;
 }
 
 .containerTwo__carousel__title {
@@ -200,15 +223,13 @@ body {
 
 .containerTwo__carousel__card__textBox__scoreBox {
     display: flex;
+    margin-top: 4px;
 }
 
-#firstStarInRow {
-    margin-left: 22px;
-}
 
 .containerTwo__carousel__card__textBox__scoreBox__star {
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
 }
 
@@ -220,7 +241,6 @@ body {
     font-size: 14px;
     line-height: 16.5px;
     margin-top: 0;
-    margin-left: 9px;
     margin-bottom: 0;
 }
 
@@ -255,3 +275,5 @@ body {
   margin-bottom: 12px;
   margin-right: 18px;
 }
+
+
