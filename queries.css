@@ -144,7 +144,7 @@
     margin-top: 80px;
     margin-left: 0px;
   }
-  
+
   .quoteBox__main {
     width: 410px;
   }
@@ -172,7 +172,7 @@
 /* == 1280 == */
 
 @media screen and (min-width: 1280px) {
-  
+
   .containerOne {
     height: 468px;
   }
@@ -208,7 +208,7 @@
   .containerOne {
     height: 600px;
   }
-  
+
   .containerFour__img,
   .containerFive__img,
   .containerFour__textBox,
