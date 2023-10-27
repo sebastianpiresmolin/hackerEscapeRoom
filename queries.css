@@ -76,6 +76,8 @@
   .containerFive__textBox {
     width: 50vw;
     height: 460px;
+    justify-content: center;
+    align-items: center;
   }
 
   .containerFour__title,
@@ -205,6 +207,36 @@
   }
 }
 
+/* == 1500 == */
+
+@media screen and (min-width: 1500px) {
+  .containerFour__title,
+  .containerFive__title,
+  .containerFour__subTitle,
+  .containerFive__subTitle,
+  .containerFive__buttonBox,
+  .containerFour__buttonBox {
+    max-width: 500px;
+  }
+
+  .containerFour__title,
+  .containerFive__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .containerFour__subTitle,
+  .containerFive__subTitle {
+    font-size: 28px;
+  }
+
+  .containerFive__button,
+  .containerFour__button {
+    margin-bottom: 46px;
+    margin-top: 20px;
+  }
+}
+
 /* == 1920 == */
 
 @media screen and (min-width: 1920px) {
@@ -226,4 +258,31 @@
   .containerFour {
     width: 100vw;
   }
+
+  .containerFour__title,
+  .containerFive__title,
+  .containerFour__subTitle,
+  .containerFive__subTitle,
+  .containerFive__buttonBox,
+  .containerFour__buttonBox {
+    max-width: 700px;
+  }
+
+  .containerFour__title,
+  .containerFive__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .containerFour__subTitle,
+  .containerFive__subTitle {
+    font-size: 28px;
+  }
+
+  .containerFive__button,
+  .containerFour__button {
+    margin-bottom: 46px;
+    margin-top: 20px;
+  }
+}
 }
