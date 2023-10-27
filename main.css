@@ -505,6 +505,23 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+.footer__boxOne {
+  height: fit-content;
+  max-width: 480px;
+}
+
+.footer__boxTwo {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.footer__boxThree {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
 .footer__title {
   font-weight: 700;
   color: #ffffff;
@@ -517,11 +534,11 @@ html {
 
 .footer__sub {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   line-height: 21px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-left: 21px;
+  margin-right: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -537,7 +554,7 @@ html {
   margin-bottom: 0;
 }
 
-.footerLinkBreakRow {
+.footerLinebreak {
   margin-top: 18px;
 }
 

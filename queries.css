@@ -86,6 +86,28 @@
   .containerFive {
     flex-direction: row-reverse;
   }
+
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer__boxTwo {
+    margin-bottom: 86px;
+  }
+
+  .footer__title {
+    margin-top: 125px;
+  }
+
+  .footer__sub {
+    margin-bottom: 125px;
+  }
+
+  .footerLinkLast {
+    margin-bottom: 147px;
+  }
 }
 
 /* == 1180 == */
