@@ -1,3 +1,11 @@
+/* == 745 == */
+
+@media screen and (min-width: 745px) {
+  .containerOne {
+    height: 350px;
+  }
+}
+
 /* == 900 == */
 
 @media screen and (min-width: 900px) {
@@ -7,6 +15,15 @@
     font-weight: 700;
     width: auto;
     margin-top: 60px;
+    height: fit-content;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .containerOne {
+    height: 400px;
   }
 
   .containerTwo__challengesLink {
@@ -85,6 +102,7 @@
 
   .containerFive {
     flex-direction: row-reverse;
+    margin-bottom: 183px;
   }
 
   .footer__container {
@@ -108,19 +126,101 @@
   .footerLinkLast {
     margin-bottom: 147px;
   }
+
 }
 
 /* == 1180 == */
 
 @media screen and (min-width: 1180px) {
+
+  .containerTwo__quoteContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+
+  .containerTwo__quoteBox {
+    max-width: 520px;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+  
+  .quoteBox__main {
+    width: 410px;
+  }
+
+  .secondQuote {
+    display: flex;
+  }
+
+  .containerTwo__img {
+    height: 96px;
+    width: 96px;
+  }
+
   .containerTwo__carousel {
     overflow-x: unset;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  .carousel__firstCard
-  .carousel__lastCard {
+  .carousel__firstCard .carousel__lastCard {
     margin: 0;
+  }
+}
+
+/* == 1280 == */
+
+@media screen and (min-width: 1280px) {
+  
+  .containerOne {
+    height: 468px;
+  }
+
+  .carousel__title {
+    font-size: 36px;
+    margin-bottom: 87px;
+    margin-top: 108px;
+  }
+
+  .containerTwo__linkBox.buttonsUnderCards {
+    margin-bottom: 87px;
+    transform: translateY(0);
+  }
+
+  .containerThree__text {
+    margin-top: 123px;
+    height: fit-content;
+  }
+
+  .containerThree__button {
+    margin-bottom: 142px;
+  }
+
+  .footer__container {
+    height: 470px;
+  }
+}
+
+/* == 1920 == */
+
+@media screen and (min-width: 1920px) {
+  .containerOne {
+    height: 600px;
+  }
+  
+  .containerFour__img,
+  .containerFive__img,
+  .containerFour__textBox,
+  .containerFive__textBox,
+  .containerFour,
+  .containerFive {
+    width: 50vw;
+    height: 600px;
+  }
+
+  .containerFive,
+  .containerFour {
+    width: 100vw;
   }
 }
