@@ -1,11 +1,86 @@
+/* == 900 == */
+
 @media screen and (min-width: 900px) {
   .header__title {
     line-height: 46px;
     font-size: 40px;
+    font-weight: 700;
     width: auto;
     margin-top: 60px;
   }
+
+  .containerTwo__challengesLink {
+    display: none;
+  }
+
+  .containerTwo__linkBox {
+    flex-direction: row;
+    gap: 17px;
+    transform: translateY(-50%);
+  }
+
+  .containerTwo__onlineChallengesBtn {
+    width: 308px;
+    height: 66px;
+    border: none;
+    background-color: #e3170a;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    display: unset;
+  }
+
+  .containerTwo__challengesBtn {
+    margin-top: 0px;
+  }
+
+  .buttonsUnderCards {
+    margin-top: 87px;
+  }
+
+  .containerFour,
+  .containerFive {
+    flex-direction: row;
+    height: 460px;
+  }
+
+  .containerFour__img,
+  .containerFive__img {
+    width: 50vw;
+    height: 460px;
+  }
+
+  .containerFour__textBox,
+  .containerFive__textBox {
+    width: 50vw;
+    height: 460px;
+  }
+
+  .containerFour__title,
+  .containerFour__subTitle,
+  .containerFive__title,
+  .containerFive__subTitle {
+    max-width: 420px;
+  }
+
+  .containerFour__buttonBox,
+  .containerFive__buttonBox {
+    max-width: 420px;
+  }
+
+  .containerFour__button,
+  .containerFive__button {
+    margin-left: 0;
+  }
+
+  .containerFive {
+    flex-direction: row-reverse;
+  }
 }
+
+/* == 1180 == */
 
 @media screen and (min-width: 1180px) {
   .containerTwo__carousel {
