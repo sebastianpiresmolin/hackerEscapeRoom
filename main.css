@@ -183,7 +183,7 @@ html {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 3px rgba(182,189,181,0.4);
 }
 
 .carousel__firstCard {
