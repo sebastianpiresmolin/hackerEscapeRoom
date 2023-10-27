@@ -10,7 +10,6 @@
 
 @media screen and (min-width: 900px) {
   .header__title {
-    line-height: 46px;
     font-size: 40px;
     font-weight: 700;
     width: auto;
@@ -44,7 +43,6 @@
     border-radius: 5px;
     font-size: 24px;
     font-weight: 700;
-    font-family: Roboto, sans-serif;
     color: #ffffff;
     display: unset;
   }
@@ -55,6 +53,11 @@
 
   .buttonsUnderCards {
     margin-top: 87px;
+  }
+
+  .containerTwo__linkBox.buttonsUnderCards {
+    margin-bottom: 87px;
+    transform: translateY(0);
   }
 
   .containerFour,
@@ -112,7 +115,7 @@
   }
 
   .footer__boxTwo {
-    margin-bottom: 86px;
+    margin-bottom: 100px;
   }
 
   .footer__title {
@@ -124,7 +127,7 @@
   }
 
   .footerLinkLast {
-    margin-bottom: 147px;
+    margin-bottom: 153px;
   }
 
 }
