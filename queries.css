@@ -1,3 +1,19 @@
+/* == 575 == */
+
+@media screen and (min-width: 575px) {
+  .containerFour__title,
+  .containerFour__subTitle,
+  .containerFive__title,
+  .containerFive__subTitle {
+    max-width: 420px;
+  }
+
+  .containerFour__buttonBox,
+  .containerFive__buttonBox {
+    max-width: 420px;
+  }
+}
+
 /* == 745 == */
 
 @media screen and (min-width: 745px) {

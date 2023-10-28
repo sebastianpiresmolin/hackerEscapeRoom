@@ -5,6 +5,7 @@ html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 * {
@@ -380,11 +381,11 @@ html {
 }
 
 .containerFour__title {
-  height: 105px;
+  height: fit-content;
   max-width: 655px;
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
@@ -458,11 +459,11 @@ html {
 }
 
 .containerFive__title {
-  height: 105px;
+  height: fit-content;
   max-width: 655px;
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
