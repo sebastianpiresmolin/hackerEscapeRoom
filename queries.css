@@ -12,6 +12,13 @@
   .containerFive__buttonBox {
     max-width: 420px;
   }
+
+  .containerFive__button,
+  .containerFour__button {
+    margin-left: 0;
+    margin-bottom: 66px;
+    margin-right: 0;
+  }
 }
 
 /* == 745 == */
