@@ -70,7 +70,7 @@ html {
 * {
     font-family: Roboto, sans-serif;
 }
-
+/* This is just to simulate functional buttons */
 button {
     cursor: pointer;
 }
@@ -329,7 +329,8 @@ button {
     justify-content: flex-start;
     overflow-x: scroll;
     gap: 30px;
-
+    
+    /* This time -webkit- is justified since only 80% of browsers support it */
     &::-webkit-scrollbar {
         width: 0.1em;
     }
