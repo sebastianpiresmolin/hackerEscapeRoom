@@ -219,6 +219,16 @@ button {
   height: 139px;
   max-width: 455px;
 }
+@media (max-width: 340px) {
+  .containerTwo__quoteBox {
+    display: none;
+  }
+}
+@media (min-width: 341px) {
+  .containerTwo__quoteBox {
+    display: flex;
+  }
+}
 @media (min-width: 1180px) {
   .containerTwo__quoteBox {
     max-width: 520px;
@@ -479,6 +489,11 @@ button {
   margin-top: 95px;
   max-width: 632px;
 }
+@media (max-width: 390px) {
+  .containerThree h1 {
+    font-size: 24px;
+  }
+}
 @media (min-width: 1280px) {
   .containerThree h1 {
     margin-top: 123px;
@@ -607,6 +622,12 @@ button {
   margin-bottom: 25px;
   margin-left: 21px;
   margin-right: 24px;
+}
+@media (max-width: 390px) {
+  .containerFour__subTitle,
+  .containerFive__subTitle {
+    font-size: 20px;
+  }
 }
 @media (min-width: 575px) {
   .containerFour__subTitle,

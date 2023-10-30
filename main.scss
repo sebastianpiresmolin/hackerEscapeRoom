@@ -5,6 +5,9 @@ $darkblue: #011827;
 $shadow: #b6bdb5;
 $white: #ffffff;
 
+$width-340: 340px;
+$width-341: 341px;
+$width-390: 390px;
 $width-575: 575px;
 $width-745: 745px;
 $width-900: 900px;
@@ -16,6 +19,23 @@ $width-1920: 1920px;
 @mixin breakpoint($point) {
     @if $point ==width-575 {
         @media (min-width: $width-575) {
+            @content;
+        }
+    }
+    @if $point ==width-390 {
+        @media (max-width: $width-390) {
+            @content;
+        }
+    }
+
+    @if $point ==width-340 {
+        @media (max-width: $width-340) {
+            @content;
+        }
+    }
+
+    @if $point ==width-341 {
+        @media (min-width: $width-341) {
             @content;
         }
     }
@@ -266,6 +286,14 @@ button {
     margin-top: 60px;
     height: 139px;
     max-width: 455px;
+
+    @include breakpoint(width-340) {
+        display: none;
+    }
+
+    @include breakpoint(width-341) {
+        display: flex;
+    }
 
     @include breakpoint (width-1180) {
         max-width: 520px;
@@ -518,6 +546,9 @@ button {
         font-weight: 400;
         margin-top: 95px;
         max-width: 632px;
+        @include breakpoint(width-390) {
+            font-size: 24px;
+        }
 
         @include breakpoint(width-1280) {
             margin-top: 123px;
@@ -626,6 +657,9 @@ button {
     margin-bottom: 25px;
     margin-left: 21px;
     margin-right: 24px;
+    @include breakpoint(width-390) {
+        font-size: 20px;
+    }
 
     @include breakpoint(width-575) {
         max-width: 420px;
