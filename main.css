@@ -171,6 +171,7 @@ button {
   width: 308px;
   height: 66px;
   border: none;
+  color: #011827;
   background-color: #8acfe5;
   margin-top: 35px;
   border-radius: 5px;
@@ -191,6 +192,7 @@ button {
     width: 308px;
     height: 66px;
     border: none;
+    color: #011827;
     background-color: #e3170a;
     border-radius: 5px;
     font-size: 24px;
