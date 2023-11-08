@@ -138,6 +138,18 @@ button {
         margin-left: 27px;
         margin-top: 26px;
     }
+
+    button {
+        background: none;
+        border: unset;
+        color: $white;
+        padding: 0;
+        margin-left: auto;
+        margin-bottom: 84px;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
 }
 
 .navbar {
@@ -159,7 +171,7 @@ button {
       padding: 0px;
       list-style-type: none;
       }
-}
+
     @include breakpoint(width-900) {
         display: flex;
     }
@@ -174,6 +186,35 @@ button {
             color: $lightblue;
         }
     }
+}
+
+.container__menuOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff7;
+    z-index: 1;
+}
+
+.container__popinMenu {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: $darkblue;
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.popinMenu__closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .containerOne {
