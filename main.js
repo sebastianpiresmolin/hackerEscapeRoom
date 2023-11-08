@@ -8,12 +8,12 @@ document.getElementById("headerButton").addEventListener('click', function() {
     setTimeout(function() {
         popinMenu.style.animation = 'grow 0.2s ease';
         popinMenu.style.opacity = 1
-    }, 100);
+    }, 10);
 
     setTimeout(function() {
         menuOverlay.style.opacity = 1;
         popinMenu.style.opacity = 1;
-    }, 200);
+    }, 10);
 
     document.documentElement.style.overflowY = 'hidden'; // This disables the ability to scroll behind the menu
 });
