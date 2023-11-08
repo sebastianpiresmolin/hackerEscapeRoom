@@ -8,11 +8,11 @@ document.getElementById("headerButton").addEventListener('click', function() {
     setTimeout(function() {
         popinMenu.style.animation = 'grow 0.2s ease';
         popinMenu.style.opacity = 1
-    }, 10);
+    }, 150);
 
     setTimeout(function() {
-        menuOverlay.style.opacity = 1;
-        popinMenu.style.opacity = 1;
+        menuOverlay.style.animation = 'fadein 0.15s ease';
+        menuOverlay.style.opacity = 1
     }, 10);
 
     document.documentElement.style.overflowY = 'hidden'; // This disables the ability to scroll behind the menu

@@ -87,6 +87,17 @@ $width-1920: 1920px;
     }
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
 body,
 html {
     margin: 0;
@@ -206,8 +217,8 @@ button {
     width: 100vw;
     height: 100vh;
     background-color: #ffffff83;
+    opacity: 0;
     z-index: 1;
-    transition: opacity 0.2s ease;
 }
 
 .container__popinMenu {
