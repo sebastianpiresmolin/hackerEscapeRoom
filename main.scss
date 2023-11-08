@@ -77,6 +77,16 @@ $width-1920: 1920px;
     }
 }
 
+@keyframes grow {
+    0% {
+        transform: scale(70%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
 body,
 html {
     margin: 0;
@@ -146,7 +156,7 @@ button {
         padding: 0;
         margin-left: auto;
         margin-bottom: 84px;
-        margin-right: 20px;
+        margin-right: 27px;
         margin-top: 20px;
         font-size: 50px;
     }
@@ -193,22 +203,29 @@ button {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff7;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff83;
     z-index: 1;
+    transition: opacity 0.2s ease;
 }
 
 .container__popinMenu {
     display: none;
     position: fixed;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
     background-color: $darkblue;
     z-index: 2;
     overflow-y: auto;
+    animation: grow 0.3s linear forwards;
+    justify-content: center;
+}
+
+.container__popinMenu ul {
+    list-style: none;
 }
 
 .popinMenu__closebtn {
@@ -218,6 +235,7 @@ button {
 }
 
 .containerOne {
+    position: relative;
     width: 100%;
     height: 284px;
     background-image: url(media/hackerimg.png);
