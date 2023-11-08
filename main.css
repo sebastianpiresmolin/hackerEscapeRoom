@@ -1,6 +1,6 @@
 @keyframes grow {
   0% {
-    transform: scale(70%);
+    transform: scale(80%);
   }
   100% {
     transform: scale(100%);
@@ -139,7 +139,7 @@ button {
   background-color: #011827;
   z-index: 2;
   overflow-y: auto;
-  animation: grow 0.3s linear forwards;
+  opacity: 0;
   justify-content: center;
 }
 

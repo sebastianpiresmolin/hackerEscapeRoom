@@ -6,9 +6,14 @@ document.getElementById("headerButton").addEventListener('click', function() {
     popinMenu.style.display = 'flex'; // This shows my popin menu
 
     setTimeout(function() {
+        popinMenu.style.animation = 'grow 0.2s ease';
+        popinMenu.style.opacity = 1
+    }, 100);
+
+    setTimeout(function() {
         menuOverlay.style.opacity = 1;
         popinMenu.style.opacity = 1;
-    }, 10);
+    }, 200);
 
     document.documentElement.style.overflowY = 'hidden'; // This disables the ability to scroll behind the menu
 });
@@ -23,7 +28,7 @@ document.getElementById("closebtn").addEventListener('click', function() {
     setTimeout(function() {
         menuOverlay.style.display = 'none'; // This hides my white overlay
         popinMenu.style.display = 'none'; // This hides my popin menu
-    }, 800);
+    }, 200);
     
     document.documentElement.style.overflowY = 'auto'; // This enables the ability to scroll again
 });
