@@ -6,12 +6,12 @@ document.getElementById("headerButton").addEventListener('click', function() {
     popinMenu.style.display = 'flex'; // This shows my popin menu
 
     setTimeout(function() {
-        popinMenu.style.animation = 'grow 0.2s ease';
+        popinMenu.style.animation = 'grow 0.1s linear';
         popinMenu.style.opacity = 1
-    }, 150);
+    }, 100);
 
     setTimeout(function() {
-        menuOverlay.style.animation = 'fadein 0.15s ease';
+        menuOverlay.style.animation = 'fadein 0.3s linear';
         menuOverlay.style.opacity = 1
     }, 10);
 
@@ -21,6 +21,9 @@ document.getElementById("headerButton").addEventListener('click', function() {
 document.getElementById("closebtn").addEventListener('click', function() {
     let menuOverlay = document.getElementById("menuOverlay");
     let popinMenu = document.getElementById("popinMenu");
+
+    menuOverlay.style.animation = '';
+    popinMenu.style.animation = '';
 
     menuOverlay.style.opacity = 0;
     popinMenu.style.opacity = 0;
