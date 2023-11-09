@@ -22,8 +22,8 @@ document.getElementById("closebtn").addEventListener('click', function() {
     let menuOverlay = document.getElementById("menuOverlay");
     let popinMenu = document.getElementById("popinMenu");
 
-    menuOverlay.style.animation = '';
-    popinMenu.style.animation = '';
+    menuOverlay.style.animation = ''; // This resets the animation between each use.
+    popinMenu.style.animation = ''; // Otherwise its buggy until the page refreshes.
 
     menuOverlay.style.opacity = 0;
     popinMenu.style.opacity = 0;
